@@ -1,0 +1,13 @@
+
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/base/elements.css: {}
+    component:
+      css/components/homepage.css: {}
+
+print-styling:
+  css:
+    print:
+      css/print.css: {}

@@ -1,0 +1,330 @@
+/* Welcome to Compass. Use this file to define print styles.
+ * Import this file using the following HTML or equivalent:
+/*<link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+/*@page {
+      background-color: $white-background;
+      margin-bottom: 0;
+  }*/
+/* line 12, ../sass/print.scss */
+body {
+  /*font-family: "Source Sans Pro regular" , sans-serif;*/
+  font-size: 1em;
+  line-height: 1em;
+  color: #111111;
+  background-color: #ffffff;
+  margin-bottom: 0 !important;
+}
+
+/* line 21, ../sass/print.scss */
+.page {
+  padding: 0 !important;
+  background: white;
+  margin-bottom: 0;
+}
+
+/* To avoid breaks directly after a */
+/* line 28, ../sass/print.scss */
+a[href^="http://"]:after, a[href^="ftp://"]:after {
+  content: " (" attr(href) ")";
+  color: blue;
+  font-size: small;
+}
+
+/* To avoid breaks directly after a heading */
+/* line 34, ../sass/print.scss */
+h1, h2, h3, h4, h5, #edit-field-section.field-name-field-section-title {
+  page-break-after: avoid !important;
+}
+
+/* To avoid breaking figures and tables */
+/* line 38, ../sass/print.scss */
+table, figure {
+  page-break-inside: avoid;
+}
+
+/* line 43, ../sass/print.scss */
+h3.para-title {
+  page-break-after: avoid !important;
+}
+
+/* line 49, ../sass/print.scss */
+.pdf-red-left {
+  background-color: #8A180E !important;
+}
+
+/* line 53, ../sass/print.scss */
+.pdf-green-left {
+  background-color: #717443 !important;
+}
+
+/* line 57, ../sass/print.scss */
+.pdf-blue-left {
+  background-color: #0D4584 !important;
+}
+
+/* line 63, ../sass/print.scss */
+.pdf-red-title {
+  color: #8A180E !important;
+}
+
+/* line 67, ../sass/print.scss */
+.pdf-green-title {
+  color: #717443 !important;
+}
+
+/* line 71, ../sass/print.scss */
+.pdf-blue-title {
+  color: #0D4584 !important;
+}
+
+/* pdf layout style - Begins */
+/* line 76, ../sass/print.scss */
+.page-body {
+  background-color: #ffffff;
+  margin: 0 0 1.2cm;
+}
+
+/* Short Report Header - Style - Begin */
+/* line 82, ../sass/print.scss */
+.pdf-header {
+  background-color: white;
+  width: 100%;
+  height: 250px;
+  clear: both;
+}
+
+/* line 88, ../sass/print.scss */
+.pdf-header-left {
+  display: inline-block;
+  background-color: #8A180E;
+  width: 300px;
+  height: 230px;
+  float: left;
+  margin-left: -1.2cm;
+}
+
+/* line 97, ../sass/print.scss */
+.pdf-header-right-logos {
+  height: 50px;
+  padding-bottom: 10px;
+}
+
+/* line 102, ../sass/print.scss */
+.pdf-header-left-border {
+  margin-left: 35px;
+  border-left: 1px solid #ffffff;
+}
+
+/* line 107, ../sass/print.scss */
+.pdf-header h1 {
+  margin: 15px;
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 42px;
+  color: #FFFFFF;
+  line-height: 40px;
+  width: 200px;
+}
+
+/* line 117, ../sass/print.scss */
+.pdf-header-left-tag {
+  font-family: 'Helvetica', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  margin: 5px 15px;
+  line-height: 11px;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+/* line 127, ../sass/print.scss */
+.pdf-header-right {
+  display: inline-block;
+  margin-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  width: 400px;
+  float: left;
+}
+
+/* line 136, ../sass/print.scss */
+.pdf-logo-img {
+  display: inline-block;
+  padding-right: 15px;
+  border-right: 1px solid #ffd91c;
+  background-image: url("/themes/custom/lebeza/images/SAMHSA-logo.png");
+  background-repeat: no-repeat;
+  width: 202px;
+  height: 50px;
+}
+
+/* line 145, ../sass/print.scss */
+.pdf-logo {
+  display: inline-block;
+  padding-left: 10px;
+  width: 150px;
+  font-family: Source Sans Pro Regular, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 11px;
+  color: #000000;
+  line-height: 1.2em;
+}
+
+/* line 156, ../sass/print.scss */
+.pdf-header-right-date {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 1px;
+  line-height: 2em;
+}
+
+/* line 165, ../sass/print.scss */
+.pdf-header-right-title h2 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  color: #8a180e;
+  line-height: 26px;
+  text-transform: capitalize;
+}
+
+/* line 175, ../sass/print.scss */
+.pdf-header-right-authors {
+  margin-bottom: 10px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 13px;
+  color: #000000;
+  line-height: 15px;
+}
+
+/* line 182, ../sass/print.scss */
+.pdf-header-right-authors span {
+  font-weight: bold;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* line 187, ../sass/print.scss */
+.pdf-header-right-logos {
+  height: 50px;
+  padding-bottom: 10px;
+}
+
+/* Short Report Header - Style - End */
+/* line 195, ../sass/print.scss */
+.page-layout {
+  background-color: #ffffff;
+  margin-bottom: 1.5cm;
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.1em;
+}
+
+/* line 202, ../sass/print.scss */
+.topics {
+  padding-top: 3em;
+}
+
+/* line 206, ../sass/print.scss */
+.field--label, .field.field--name-field-title1 {
+  margin-left: -1.7cm;
+  padding-left: 1.7cm;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5em;
+  display: inline;
+  border-bottom: 1px solid #717443;
+}
+
+/* line 218, ../sass/print.scss */
+.page-layout div > .wrap {
+  margin-left: -1.7cm;
+  padding-left: 1.7cm;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #717443;
+  display: inline-block;
+  position: absolute;
+  top: -2.5em;
+}
+
+/* line 229, ../sass/print.scss */
+.field--name-field-brief {
+  background-color: #efefef;
+  padding: 15px;
+  font-family: 'Helvetica', sans-serif;
+}
+
+/* line 235, ../sass/print.scss */
+.field--name-field-brief .field--label {
+  margin-left: -1.7cm;
+  padding-left: 1.7cm;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5em;
+  display: inline;
+  border-bottom: 1px solid #717443;
+}
+
+/* line 247, ../sass/print.scss */
+.page-layout p {
+  line-height: 15px;
+  font-size: 10px;
+  color: #000000;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: normal;
+}
+
+/* Short Report Footer - Style - Begin */
+/* line 257, ../sass/print.scss */
+.pdf-footer {
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  height: 40px;
+  line-height: 30px;
+  vertical-align: middle;
+  bottom: 0;
+  right: -1.2cm;
+  background: #8A180E;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* line 271, ../sass/print.scss */
+.pdf-page-no:after {
+  content: counter(page);
+  margin-right: 15px;
+}
+
+/* line 276, ../sass/print.scss */
+.pdf-page-no {
+  display: inline;
+  text-align: right;
+  font-size: 8px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+/* line 285, ../sass/print.scss */
+.pdf-date {
+  font-size: 8px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: right;
+  display: inline;
+  padding-right: 15px;
+  margin-right: 15px;
+  border-right: 1px solid #ffffff;
+}

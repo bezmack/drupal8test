@@ -1,0 +1,63 @@
+
+
+<header class="pdf-header">
+  <div class="pdf-header-left">
+    <div class="pdf-header-left-border">
+        <h1>The CBHSQ Report</h1>
+        <div class="pdf-header-left-tag">CENTER FOR BEHAVIORAL HEALTH STATISTICS AND QUALITY</div>
+    </div>
+  </div>
+
+  <div class="pdf-header-right">
+        <div class="pdf-header-right-logos">
+          <div class="pdf-logo-img"></div>
+          <div class="pdf-logo">
+             <div> {{ content.field_data_source }} </div>
+          </div>
+        </div>
+
+        <div class="pdf-header-right-date">
+            {% set date = node.createdtime|date("F j, Y") %}
+            {{ date }}
+        </div>
+      <div class="pdf-header-right-title" >
+        <h2> {{ node.title.value }} </h2>
+      </div>
+      <div class="pdf-header-right-authors">
+          fake Name
+      </div>
+  </div>
+
+</header>
+
+ <div class="body-wrapper">
+   <footer class="pdf-footer">
+     <span class="pdf-date"> date no</span>
+     <span class="pdf-page-no">Page </span>
+   </footer>
+
+    <div class="page-layout">
+      <h3>
+        {{ content.field_brief}}
+        {{ content.field_introduction}}
+        {{ content.field_section }}
+        {{ content.field_data_source_discription }}
+        {{ content.endnotes }}
+      </h3>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+{# the footer section should be before the body part otherwise
+it will only show the last page of the pdf #}
+
+
+{#insted of using code to display the titles,
+i used pdf manage display and change the label to above #}
