@@ -769,6 +769,10 @@ $settings['file_scan_ignore_directories'] = [
  */
 $settings['entity_update_batch_size'] = 50;
 
+$settings['file_chmod_directory'] = 0777;
+$settings['file_chmod_file'] = 0666;
+
+
 /**
  * Load local development override configuration, if available.
  *
