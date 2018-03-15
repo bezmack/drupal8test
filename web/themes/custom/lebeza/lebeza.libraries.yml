@@ -1,16 +1,18 @@
 
 global-styling:
-  version: 1.x
+  version: VERSION
   css:
-    base:
-      css/base/elements.css: {}
-    component:
+    theme:
       css/components/homepage.css: {}
 
-#print-styling:
-  #css:
-    #print:
-      #css/print.css: {}
-
-
-    
+parallax:
+  css:
+    component:
+      css/components/parallax.css: {}
+  js:
+    js/ScrollMagic.min.js: {}
+    js/animation.gsap.min.js: {}
+    js/TweenMax.min.js: {}
+    js/main.js: {}
+    dependencies:
+      -core/jquery

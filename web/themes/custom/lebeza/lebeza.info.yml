@@ -7,11 +7,10 @@ description: 'Uses the jsDelivr CDN for all CSS and JavaScript. No source files 
 package: 'Bootstrap'
 
 regions:
-  headline: 'headline'
+  header: 'Header'
   navigation: 'Navigation'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
-  header: 'Header'
   highlighted: 'Highlighted'
   content: 'Content'
   sidebar_first: 'Sidebar First'
@@ -22,6 +21,7 @@ regions:
 
 libraries:
    - lebeza/global-styling
+
 
 entity_print:
    node:

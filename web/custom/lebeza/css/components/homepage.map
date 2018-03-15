@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../../sass/components/homepage.css",
+	"sources": [
+		"../../sass/components/homepage.scss"
+	],
+	"sourcesContent": [
+		".navbar.container  {\n \tbackground-image: url(\"/themes/custom/lebeza/images/gauguin.jpg\");\n  background-size: cover;\n  background-repeat: no-repeat;\n  height: 350px;\n  padding-left: 0;\n }\n\n\n nav#block-lebeza-main-menu {\n    background: #f80703;\n    width: 100%;\n    position: absolute;\n    top: 85.5%;\n    margin: 0 auto;\n}\n\n.navbar-default .navbar-nav > li > a {\n    color: #f5f5f5;\n}\n\n"
+	],
+	"mappings": ";AAAA,AAAO,OAAA,AAAA,UAAU,CAAE;EACjB,gBAAgB,EAAE,+CAAG;EACrB,eAAe,EAAE,KAAM;EACvB,iBAAiB,EAAE,SAAU;EAC7B,MAAM,EAAE,KAAM;EACd,YAAY,EAAE,CAAE;CAChB;;;AAGD,AAAG,GAAA,AAAA,uBAAuB,CAAC;EACxB,UAAU,EAAE,OAAQ;EACpB,KAAK,EAAE,IAAK;EACZ,QAAQ,EAAE,QAAS;EACnB,GAAG,EAAE,KAAM;EACX,MAAM,EAAE,MAAO;CAClB;;;AAED,AAAmC,eAApB,CAAC,WAAW,GAAG,EAAE,GAAG,CAAC,CAAC;EACjC,KAAK,EAAE,OAAQ;CAClB",
+	"names": []
+}

@@ -1,0 +1,64 @@
+// general
+
+.main-container {
+  padding: 0px;
+}
+.page-header {
+  padding-bottom: 0px;
+}
+
+section#block-normalsection {
+    background: aqua;
+}
+// normal sections
+
+.block-block-content819b2c09-c804-4e61-b1ff-1779235eae1f {
+  text-align: center;
+  padding: 10em;
+  font-size: 20px;
+  background-color: #204d74;
+  color: #fff;
+}
+
+// parallax sections
+
+.parallax {
+  text-align: center;
+  // so we can absolute position the background
+  position: relative;
+  overflow: hidden;
+  height: 600px;
+}
+
+.parallax__bg {
+  position: absolute;
+  width: 100%;
+  height: 140%;
+}
+
+.parallax--parallax1 .parallax__bg {
+  background: url('/themes/custom/lebeza/images/bgimage1.jpg');
+  background-repeat: no-repeat;
+}
+.parallax--parallax2 .parallax__bg  {
+  background: url('/themes/custom/lebeza/images/south-korean.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax__content {
+  // center content vertically
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+  h2 {
+    margin: 0px;
+    font-size: 30px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
