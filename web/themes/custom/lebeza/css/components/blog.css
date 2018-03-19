@@ -5,3 +5,8 @@
   padding: 30px 60px;
   background: #e8e8e8;
 }
+
+/* line 10, ../../sass/components/blog.scss */
+.view-blog.view-id-blog .views-field-field-blog-image {
+  display: none;
+}
