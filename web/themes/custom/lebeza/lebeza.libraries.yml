@@ -4,6 +4,7 @@ global-styling:
   css:
     theme:
       css/components/homepage.css: {}
+      css/components/blog.css: {}
 
 parallax:
   css:

@@ -7,7 +7,14 @@
   padding-left: 0;
 }
 
-/* line 12, ../../sass/components/homepage.scss */
+/* line 11, ../../sass/components/homepage.scss */
+.navbar-default {
+  background-color: #7d3636;
+  border-color: #e7e7e7;
+  height: 100px;
+}
+
+/* line 17, ../../sass/components/homepage.scss */
 nav#block-lebeza-main-menu {
   background: #bada55;
   width: 100%;
@@ -16,7 +23,7 @@ nav#block-lebeza-main-menu {
   border: 1px solid blue;
 }
 
-/* line 20, ../../sass/components/homepage.scss */
+/* line 25, ../../sass/components/homepage.scss */
 .navbar-default .navbar-nav > li > a {
   color: #f5f5f5;
 }

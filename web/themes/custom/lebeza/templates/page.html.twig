@@ -66,7 +66,17 @@
       {% if not navbar_attributes.hasClass(container) %}
         <div class="{{ container }}">
       {% endif %}
-      <div class="navbar-header">
+
+      {# Header #}
+      {% if page.header %}
+        {% block header %}
+          <div class="col-sm-4" role="heading">
+            {{ page.header }}
+          </div>
+        {% endblock %}
+      {% endif %}
+      
+      <div class="navbar-header col-sm-8">
         {{ page.navigation }}
         {# .btn-navbar is used as the toggle for collapsed navbar content #}
         {% if page.navigation_collapsible %}
@@ -88,6 +98,7 @@
       {% if not navbar_attributes.hasClass(container) %}
         </div>
       {% endif %}
+
     </header>
   {% endblock %}
 {% endif %}
@@ -97,14 +108,7 @@
   <div role="main" class="main-container {{ container }} js-quickedit-main-content">
     <div class="row">
 
-      {# Header #}
-      {% if page.header %}
-        {% block header %}
-          <div class="col-sm-12" role="heading">
-            {{ page.header }}
-          </div>
-        {% endblock %}
-      {% endif %}
+
 
       {# Sidebar First #}
       {% if page.sidebar_first %}
