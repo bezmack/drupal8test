@@ -27,3 +27,15 @@ nav#block-lebeza-main-menu {
 .navbar-default .navbar-nav > li > a {
   color: #f5f5f5;
 }
+
+/* line 30, ../../sass/components/homepage.scss */
+.region-footer .contextual-region {
+  width: 50%;
+  float: left;
+}
+
+/* line 35, ../../sass/components/homepage.scss */
+.region-footer #block-footermenu-2 {
+  width: 100%;
+  /*border-top: 1px solid #eee;*/
+}
