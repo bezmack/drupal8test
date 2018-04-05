@@ -1,11 +1,15 @@
 
 .view-blog.view-id-blog .views-col {
-  border: 1px solid #b56d6d;
-  height: 350px;
-  padding: 100px 60px;
-  background: #e8e8e8;
+    border: 1px solid #b56d6d;
+    height: 350px;
+    padding: 50px 60px;
+    background: #e8e8e8;
 }
 
+.view-blog.view-id-blog .views-field.views-field-body {
+    background: #fff;
+    padding: 16px;
+}
 
 .view-blog.view-id-blog .views-field-field-blog-image {
   display: none;
