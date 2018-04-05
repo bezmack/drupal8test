@@ -2,11 +2,19 @@
 .view-blog.view-id-blog .views-col {
   border: 1px solid #b56d6d;
   height: 350px;
-  padding: 30px 60px;
+  padding: 100px 60px;
   background: #e8e8e8;
 }
 
 /* line 10, ../../sass/components/blog.scss */
 .view-blog.view-id-blog .views-field-field-blog-image {
   display: none;
+}
+
+/* line 14, ../../sass/components/blog.scss */
+.view-blog.view-id-blog .views-field.views-field-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: bold;
 }
