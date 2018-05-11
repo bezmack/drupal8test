@@ -3,6 +3,16 @@
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0-or-later",
+    "replace": {
+        "drupal/core": "^8.4"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist",
+        "autoloader-suffix": "Drupal8",
+        "bin-dir": "vendor/bin/"
+    },
     "authors": [
         {
             "name": "",
@@ -26,7 +36,9 @@
         "drupal/superfish": "^1.2",
         "drush/drush": "^9.2",
         "webflo/drupal-finder": "^1.0.0",
-        "webmozart/path-util": "^2.3"
+        "webmozart/path-util": "^2.3",
+        "drupal/drupal-extension": "~3.0",
+        "guzzlehttp/guzzle": "^6.0@dev"
     },
     "require-dev": {
         "webflo/drupal-core-require-dev": "~8.4"
@@ -34,7 +46,6 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
         "sort-packages": true
